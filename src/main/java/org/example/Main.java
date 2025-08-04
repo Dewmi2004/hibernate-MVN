@@ -15,6 +15,7 @@ public class Main {
       updateCustomer();
       deleteCustomer();
         getAllCustomer();
+
     }
     public static void getCustomer() {
         Session session = FactoryConfiguration.getInstance().getSession();
